@@ -15,10 +15,20 @@ export class AppComponent {
       url: '/home',
       icon: 'home'
     },
+    // {
+    //   title: 'List',
+    //   url: '/list',
+    //   icon: 'list'
+    // },
     {
-      title: 'List',
-      url: '/list',
-      icon: 'list'
+      title: 'recenter',
+      url: '/recenter',
+      icon: 'recenter'
+    },
+    {
+      title: 'waypoints',
+      url: '/waypoints',
+      icon: 'waypoints'
     }
   ];
 

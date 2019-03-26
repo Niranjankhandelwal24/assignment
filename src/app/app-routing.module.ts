@@ -14,7 +14,9 @@ const routes: Routes = [
   {
     path: 'list',
     loadChildren: './list/list.module#ListPageModule'
-  }
+  },
+  { path: 'recenter', loadChildren: './recenter/recenter.module#RecenterPageModule' },
+  { path: 'waypoints', loadChildren: './waypoints/waypoints.module#WaypointsPageModule' }
 ];
 
 @NgModule({
